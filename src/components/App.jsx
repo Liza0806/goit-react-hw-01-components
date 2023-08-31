@@ -2,7 +2,6 @@
 import {UserProfile} from "./profile/userProfile";
 import user from '../data/user.json';
 
-import { StatsTitle } from 'components/stats/statsTitle';
 import {StatsBoard} from 'components/stats/statsBoard';
 import data from '../data/data.json';
 
