@@ -4,19 +4,19 @@ import {
   Title,
   StatList, 
   StatItem}
-  from './stats.styled'
+  from './Statistics.styled'
 
   const getRandomColor = () => `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
 
 
 export const StatsBoard = ({ data, title }) => {
     return ( <StatsContainer>
-      <Title>{title}</Title>
+    {title && <Title>{title}</Title>}
       <StatList className="stat-list">
         {data.map(el => (
           <StatItem className="item" style={{ backgroundColor: getRandomColor() }} key={el.id}>
             <span className="label">{el.label} </span>
-            <span className="percentage">{el.percentage}</span>
+            <span className="percentage">{el.percentage} %</span>
           </StatItem>
         ))}
       </StatList></StatsContainer>

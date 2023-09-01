@@ -11,7 +11,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
   font-size: 30px;
   margin-bottom: 10px;
   color: #44236a;

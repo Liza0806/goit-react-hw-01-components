@@ -5,7 +5,7 @@ export const FriendListWrapper = styled.ul`
   padding: 0;
 `;
 
-export const FriendListItem = styled.li`
+export const FriendListItemSt = styled.li`
 width: 400px;
   display: flex;
   align-items: center;

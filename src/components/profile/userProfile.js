@@ -9,7 +9,7 @@ import  {
   Label,
   Quantity,
   Stats
-} from './userProfile.styled';
+} from './UserProfile.styled';
 
 
 export function UserProfile ({ avatar, username, tag, location, stats }){ 

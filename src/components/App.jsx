@@ -1,14 +1,14 @@
 
-import {UserProfile} from "./profile/userProfile";
+import {UserProfile} from "./profile/UserProfile";
 import user from '../data/user.json';
 
-import {StatsBoard} from 'components/stats/statsBoard';
+import {StatsBoard} from 'components/statistics/StatisticsBoard';
 import data from '../data/data.json';
 
-import { FriendList } from 'components/friendlist/friendList';
+import { FriendList } from 'components/friendlist/FriendList';
 import friends from '../data/friends.json'
 
-import { TransactionHistory } from "./transaction/transaction";
+import { TransactionHistory } from "./transaction/Transaction";
 import transactions from '../data/transactions.json';
 
 import {Container} from './App.styled.js';
