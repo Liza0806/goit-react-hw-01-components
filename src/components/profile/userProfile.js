@@ -11,7 +11,6 @@ import  {
   Stats
 } from './UserProfile.styled';
 
-
 export function UserProfile ({ avatar, username, tag, location, stats }){ 
 return (<ProfileStyle>
 <div className="profile">
