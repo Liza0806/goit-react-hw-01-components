@@ -17,7 +17,7 @@ export const TransactionItem = ({id, type, amount, currency}) => {
       
 }
 
-TransactionItem .propTypes ={
+TransactionItem.propTypes ={
     type: PropTypes.string,
     amount: PropTypes.string,
     currency: PropTypes.string,

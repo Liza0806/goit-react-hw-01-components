@@ -5,7 +5,6 @@ TableHeader,
 TableHeaderCell,
 TableBody,
 TableRow,
-TableCell
 }
 from './Transaction.styled'
 
