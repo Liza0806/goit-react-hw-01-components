@@ -12,7 +12,8 @@ import  {
 } from './UserProfile.styled';
 
 export function UserProfile ({ avatar, username, tag, location, stats }){ 
-return (<ProfileStyle>
+return (
+<ProfileStyle>
 <div className="profile">
 <div className="description">
   <StyledImage
